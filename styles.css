@@ -1,0 +1,148 @@
+body{
+background-color:rgb(121,121,121);
+font-family:courier;
+}
+
+
+.header_cats h2{
+    display:block; 
+    width:100%; 
+    text-align:center; 
+    font-size: 35px;
+}
+.header_cats p{
+    font-size: 20px;
+    border:2px solid black;
+    display:inline-block;
+    padding:15px;
+    font-weight: bold;
+    height: 125px;
+    width: 275px;
+    margin-left:11%;
+}
+#cat1{
+    background-image: url(images/fon.png);
+    background-size: cover;
+    background-position: 5px -2px;
+}
+#cat2{
+    background-image: url(images/fon1.png);
+    background-size: cover;
+    background-position: 5px -2px;
+}
+#cat3{
+    background-image: url(images/fon2.png);
+    background-size: cover;
+    background-position: 5px -2px;
+}
+
+
+
+.links:link{
+    background-color:transparent;
+    text-decoration: none;
+    font-weight: bold;
+    }
+.links:visited{
+color:rgb(200,200,200);
+background-color: transparent;
+text-decoration: none;
+}
+.links:hover{
+color:white;
+background-color:transparent;
+}
+.links:active{
+color:rgb(95,95,95);
+background-color:transparent;
+}
+
+.link_block{
+    display:inline-block;
+    border:2px dashed black;
+    height: 60px;
+    width: 350px;
+    background-color:rgb(141,141,141);
+    padding:10px;
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+
+    }
+
+.last_button1{
+    display: inline-block;
+    border: 2px dashed black;
+    width:85px;
+    height:70px;
+    color:black;
+    background-color: rgb(141, 141, 141);
+    padding:5px;
+    text-decoration: none;
+    text-align: center; 
+    font-weight: bold;
+    position:relative;
+    top: -23px;
+    margin-left: 5px;
+
+}
+.last_button1::before{
+    content: "Другой сайт"
+}
+.last_button1:hover{
+    background-color: rgb(171, 171, 171);
+}
+.last_button1:active{
+    background-color: rgb(222,222,222);
+    color: rgb(100,100,100)
+}
+
+
+
+.cat_image{
+    width:140px;
+    height:100px;
+}
+
+
+.button{
+background-color:rgb(121,121,121);
+width: 120px;
+height: 22px;
+position:relative;
+top: -62px;
+}
+
+.button:hover{
+background-color: whitesmoke;
+}
+.button::before{
+content: "Проголосовать";
+color: rgb(211,211,211);
+}
+.button:hover::before{
+content: "Голосуем";
+color: black;
+}
+
+.address_block{
+    display:block;
+    background-color: rgb(141,141,141);
+    border: 2px solid black;
+    text-align:center;
+    width: 300px;
+    margin:0 auto;
+    padding: 5px, 0 px;
+    box-sizing: border-box;
+}
+
+.listok{
+    display:inline-block;
+    width:120px;
+    height:80px;
+    border: 2px dashed black;
+    background-color: rgb(141,141,141);
+}
+
+
+
